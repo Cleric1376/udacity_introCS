@@ -31,12 +31,12 @@
 
 def fix_machine(debris, product):
     n = 0
-    while n <= len (product) - 1:
+    while n < len (product):
         if debris.find(product[n]) != -1:
             n += 1
-            return product
         else:
             return "Give me something that's not useless next time."
+    return product
 ### TEST CASES ###
 print "Test case 1: ", fix_machine('UdaciousUdacitee', 'Udacity') == "Give me something that's not useless next time."
 print "Test case 2: ", fix_machine('buy me dat Unicorn', 'Udacity') == 'Udacity'
