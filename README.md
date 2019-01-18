@@ -1,2 +1,2 @@
 # udacity_introCS
-UdacityOnlineCourseIntroToComputerScience
+Udacity.com online course Introduction To Computer Science
